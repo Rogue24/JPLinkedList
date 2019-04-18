@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80F1D35EF44A51FCC99B8650 /* Pods-JPLinkedList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLinkedList_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPLinkedList_Example/Pods-JPLinkedList_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2763D6F2B35580806DC7BAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B54BB5A7FA4016363464F506 /* JPLinkedList.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JPLinkedList.podspec; path = ../JPLinkedList.podspec; sourceTree = "<group>"; };
+		B2763D6F2B35580806DC7BAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B54BB5A7FA4016363464F506 /* JPLinkedList.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JPLinkedList.podspec; path = ../JPLinkedList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF715E1CE8E5D50EBFBECAC5 /* Pods-JPLinkedList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLinkedList_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPLinkedList_Example/Pods-JPLinkedList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE993B23382C1E75C5F23392 /* Pods-JPLinkedList_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLinkedList_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPLinkedList_Tests/Pods-JPLinkedList_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F5DDAF3C42D03538CE16FFF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5DDAF3C42D03538CE16FFF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
