@@ -41,11 +41,11 @@
 
 /* Begin PBXFileReference section */
 		08F1DAB1A3A7BB743845D9ADE9E22503 /* Pods-JPLinkedList_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPLinkedList_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0A7DB2042909C12EC365B0C6DA192B4C /* Pods_JPLinkedList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPLinkedList_Tests.framework; path = "Pods-JPLinkedList_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7DB2042909C12EC365B0C6DA192B4C /* Pods_JPLinkedList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPLinkedList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925DAEFC4C3A1F916740DE710BA6C8 /* Pods-JPLinkedList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPLinkedList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23D37E3D35D3580ADACAC7D63D6C9029 /* JPLinkedList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JPLinkedList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23D37E3D35D3580ADACAC7D63D6C9029 /* JPLinkedList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JPLinkedList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25C380C154D13AF4684D3E7289D9FD3B /* JPLinkedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPLinkedNode.m; path = JPLinkedList/Classes/JPLinkedNode.m; sourceTree = "<group>"; };
-		2752DB93AF388B1BA2191CED57C1BBA2 /* JPLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPLinkedList.framework; path = JPLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2752DB93AF388B1BA2191CED57C1BBA2 /* JPLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371FDFE9A7C648B286988A990F40446F /* Pods-JPLinkedList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPLinkedList_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3D11757D3F6D7124F144014DACD18F7A /* Pods-JPLinkedList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPLinkedList_Example.modulemap"; sourceTree = "<group>"; };
 		4037E3B0678F33D54D5C789147C6C469 /* Pods-JPLinkedList_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPLinkedList_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		516686F9D9A72CAE618B37195CE76E7C /* JPLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLinkedList.h; path = JPLinkedList/Classes/JPLinkedList.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C1162619FE07347DAE4CBE49F63AB69 /* Pods-JPLinkedList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPLinkedList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EAAA34BC8B607294E5F749070F88522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EAAA34BC8B607294E5F749070F88522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		62B74A4995F881A4FC019A1E0717601E /* Pods-JPLinkedList_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPLinkedList_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		65624A5710465F553FC433BCE8CDF7EA /* JPLinkedList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPLinkedList.xcconfig; sourceTree = "<group>"; };
 		74DD29A0FCBB96D010D9CE117D893B52 /* Pods-JPLinkedList_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPLinkedList_Example-resources.sh"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		77A2DC8EDCA509E2974F936ADD89E544 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796A9E20F9E1975C02890872DB23F7C8 /* Pods-JPLinkedList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPLinkedList_Example-dummy.m"; sourceTree = "<group>"; };
 		8FD43EAC8064EFB9ACAF4A8741CE5D08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94896CDF6905D2515C2A9D9D01B5929B /* JPLinkedList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPLinkedList-dummy.m"; sourceTree = "<group>"; };
 		96B3C16332FD0B3D3701C6D1971D1F35 /* Pods-JPLinkedList_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPLinkedList_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D09985C77093D6BEBB69EE9B7199D0D /* JPLinkedList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JPLinkedList.modulemap; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 		B287E48E79C3A8B283E27A3BFECEAAA5 /* Pods-JPLinkedList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPLinkedList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B51E6CE65EC3930259847743E39301BB /* Pods-JPLinkedList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPLinkedList_Tests.modulemap"; sourceTree = "<group>"; };
 		B883EB7FB35595EC35998491736DCD31 /* Pods-JPLinkedList_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPLinkedList_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7D1478482E0B825C679D8D51590C73E /* Pods_JPLinkedList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPLinkedList_Example.framework; path = "Pods-JPLinkedList_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D1478482E0B825C679D8D51590C73E /* Pods_JPLinkedList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPLinkedList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94E30A9D6A82258055978FF77C0577D /* JPLinkedList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPLinkedList-umbrella.h"; sourceTree = "<group>"; };
-		CB6A9431FFCD344A5275267658A5BFDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB6A9431FFCD344A5275267658A5BFDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D132DBE55BA158EA8A93D61FA558B055 /* Pods-JPLinkedList_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPLinkedList_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D95795FEBC45442F030798436ABEE2D1 /* JPLinkedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLinkedNode.h; path = JPLinkedList/Classes/JPLinkedNode.h; sourceTree = "<group>"; };
 		E1B646CFBFC19522E86E1ADFEAB5DA44 /* Pods-JPLinkedList_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPLinkedList_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -328,14 +328,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 6EDDEC1214EFC53D7FE5007D9C246E0A /* Products */;
@@ -398,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -623,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
