@@ -1,0 +1,16 @@
+PODS:
+  - JPLinkedList (0.1.0)
+
+DEPENDENCIES:
+  - JPLinkedList (from `../`)
+
+EXTERNAL SOURCES:
+  JPLinkedList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JPLinkedList: 1f7bb89cfd555c6886183a7c745bee4c5001021e
+
+PODFILE CHECKSUM: d6027810bb4df8a307e35680e9737fac7588f4af
+
+COCOAPODS: 1.5.3

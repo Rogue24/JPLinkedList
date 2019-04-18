@@ -1,0 +1,6 @@
+framework module JPLinkedList {
+  umbrella header "JPLinkedList-umbrella.h"
+
+  export *
+  module * { export * }
+}
