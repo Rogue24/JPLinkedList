@@ -1,17 +1,14 @@
 //
 //  JPLinkedNode.h
-//  JPLinkedList-Demo
+//  JPLinkedList
 //
-//  Created by 周健平 on 2019/4/18.
-//  Copyright © 2019 周健平. All rights reserved.
+//  Created by 周健平 on 2019/4/20.
 //
 
 #import <Foundation/Foundation.h>
 
-
-@interface JPLinkedNode : NSObject
-- (instancetype)initWithElement:(id)element nextNode:(JPLinkedNode *)nextNode;
-@property (nonatomic, strong) id element;
-@property (nonatomic, strong) JPLinkedNode *nextNode;
+@interface JPLinkedNode<ElementType> : NSObject
+- (instancetype)initWithElement:(ElementType)element nextNode:(JPLinkedNode<ElementType> *)nextNode;
+@property (nonatomic, strong) ElementType element;
+@property (nonatomic, strong) JPLinkedNode<ElementType> *nextNode;
 @end
-

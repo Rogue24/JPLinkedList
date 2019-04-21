@@ -1,9 +1,8 @@
 //
 //  JPLinkedNode.m
-//  JPLinkedList-Demo
+//  JPLinkedList
 //
-//  Created by 周健平 on 2019/4/18.
-//  Copyright © 2019 周健平. All rights reserved.
+//  Created by 周健平 on 2019/4/20.
 //
 
 #import "JPLinkedNode.h"
@@ -16,6 +15,10 @@
         self.nextNode = nextNode;
     }
     return self;
+}
+
+- (void)dealloc {
+    NSLog(@"node死了");
 }
 
 @end

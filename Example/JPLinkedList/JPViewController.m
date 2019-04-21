@@ -7,23 +7,40 @@
 //
 
 #import "JPViewController.h"
+#import <JPLinkedList/JPLinkedList.h>
 
 @interface JPViewController ()
-
+@property (nonatomic, strong) JPLinkedList *linkList;
 @end
 
 @implementation JPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    self.linkList = [[JPLinkedList alloc] init];
+    
+    JPLinkedNode *node = [[JPLinkedNode alloc] init];
+    node.element = @0;
+    self.linkList.firstNode = node;
+    
+    for (NSInteger i = 1; i < 10; i++) {
+        JPLinkedNode *lastNode = node;
+        node = [[JPLinkedNode alloc] init];
+        node.element = @(i);
+        if (lastNode) lastNode.nextNode = node;
+    }
+    
+    
+    NSInteger i = 0;
+    node = self.linkList.firstNode;
+    while (i < 10) {
+        NSLog(@"%@", node.element);
+        node = node.nextNode;
+        i += 1;
+    }
+    
+    self.linkList.firstNode = nil;
 }
 
 @end
