@@ -18,19 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.linkList = [[JPLinkedList alloc] init];
+    [self test1];
+}
+
+// 测试是否删了first，其他节点都会自动销毁
+- (void)test1 {
+    self.linkList = [JPLinkedList new];
     
-    JPLinkedNode *node = [[JPLinkedNode alloc] init];
+    JPLinkedNode *node = [JPLinkedNode new];
     node.element = @0;
     self.linkList.firstNode = node;
     
     for (NSInteger i = 1; i < 10; i++) {
         JPLinkedNode *lastNode = node;
-        node = [[JPLinkedNode alloc] init];
+        node = [JPLinkedNode new];
         node.element = @(i);
         if (lastNode) lastNode.nextNode = node;
     }
-    
     
     NSInteger i = 0;
     node = self.linkList.firstNode;
@@ -41,6 +45,8 @@
     }
     
     self.linkList.firstNode = nil;
+    
+    // 测试结果：都死光了 -> YES
 }
 
 @end
